@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navigation Bar */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.navbar-brand {
+    font-family: Viga;
+}
+
+/* Jumbotron */ 
+.jumbotron .container h1 span {
+    font-weight: bold;
+}
+
+.jumbotron .card {
+    background-color: rgba(36, 68, 99, 0.8);
+    padding: 20px 30px;
+}
+
+.jumbotron .card-header {
+    opacity: 1;
+}
+
+.jumbotron {
+    background-image: url(/marvel.jpg);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+
+/* Card */
+.card {
+    border-radius: 10px;
+}
+
+.card-title {
+    color: #244463;
+}
+
+.card-header {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.card-body .card-title {
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.card-text .overview {
+    font-weight: bold;
+}
+
+.text-muted {
+    font-weight: 700;
+}
+
+.text-muted .tv-rating {
+    width: 40px;
+}
+
+/* Button */
+.button-bar {
+    margin: 0 auto;
+}
+.button-bar .btn {
+    margin: 40px 0 0 15px;
+}
+
+.show {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Footer */
+footer {
+    background-color: #244463;
+    color: white;
+    margin-top: 60px;
+}
+
+.footer-copyright {
+    text-align: center;
+}
+
